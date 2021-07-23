@@ -1,0 +1,51 @@
+
+.sliderclass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.butonStyle{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    width: 6vw;
+    height: 2vh;
+    background-color: green;
+    font-size: 2em;
+    cursor: pointer;
+    transition-timing-function: ease-in;
+    transition-duration: 500ms;
+    border: 2px solid black;
+    padding: 0 15px;
+
+}
+.butonStyle:hover{
+    background-color: black;
+    color: white;
+    font-size: 2.1em;
+}
+.infoStyle{
+    text-align: center;
+    color: #242c42;
+
+}
+.infoStyle h1{
+    font-size: 60px;
+}
+.infoStyle h5{
+    font-size: 20px;
+}
+.klor{
+    border: 1px solid black;
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+    cursor: pointer;
+}
+.klorneridiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+

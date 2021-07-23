@@ -1,0 +1,122 @@
+.vernagir{
+    text-align: center;
+    color: #242c42;
+    margin-top: 70px;
+}
+.course{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Link a{
+    background-color: green;
+    text-decoration: none;
+    padding: 3px 15px;
+    color: white;
+    transition-duration: 500ms;
+    font-size: 20px;
+}
+.Link a:hover{
+    background-color: black;
+}
+.tvyalner{
+    background-image: url("https://ens-courses.herokuapp.com/assets/images/background-count-number.png");
+    height: 50vh;
+    color: white;
+    text-align: center;
+}
+.contentDiv{
+    margin-bottom: 15vh;
+}
+.info{
+    display: flex;
+    justify-content: center;
+}
+.xumb{
+    font-size: 30px;
+    margin: 0 3vw;
+}
+.parallaxidiv{
+    width: 100%;
+    height: 60vh;
+}
+.infodiv{
+    background-color: gainsboro;
+    max-width: 30vw;
+    padding: 5vh;
+    opacity: 0.7;
+}
+.textidiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition-duration: 500ms;
+
+}
+h4{
+    color: green;
+}
+.klorbutton{
+    border: 2px solid gray;
+    border-radius: 50%;
+    padding: 2vh 2vw;
+    color: gray;
+    transition-duration: 500ms;
+    cursor: pointer;
+    max-height: 3vh;
+    
+}
+
+.klorbutton:hover{
+    border: 2px solid black;
+    color: black;
+}
+.globalinfo{
+    margin: 10vh 15vw;
+}
+.galireya{
+    text-align: center;
+    height: 100vh;
+}
+.imgdiv{
+    display: flex;
+    justify-content: center;
+}
+.mod{
+    transition-duration: 500ms;
+}
+.mod:hover{
+    box-shadow: 3px 0 7px rgb(0 0 0 / 30%);
+}
+.erkrordcontent{
+    height: 100vh;
+}
+.texter{
+    text-align: center;
+}
+.tablica{
+    height: 50vh;
+    width: 60vw;
+    background-color: gainsboro;
+    margin: 15vh auto;
+    transition-duration: 500ms;
+}
+.tablica img{
+    float: left;
+    width: 30vw;
+    position: relative;
+    bottom: 4vh;
+    right:  2vw;
+}
+.tablica:hover{
+    box-shadow: 3px 0 7px rgb(0 0 0 / 30%);
+    background-color: white;
+    
+}
+.tablica h2{
+    transition-duration: 500ms;
+}
+.tablica h2:hover{
+    color: green;
+}

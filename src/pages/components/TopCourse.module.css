@@ -1,0 +1,40 @@
+.main {
+    width: 30vw;
+    min-width: 15vw;
+    height: auto;
+    min-height: 15vh;
+    background-color: rgb(235, 235, 235);
+    text-align: left;
+    transition-duration: 500ms;
+    margin: 4vw;
+    border-left: 3px solid gray;
+    padding-left: 15px;
+}
+.main img{
+    float: right;
+    max-width: 30vw;
+    max-height: 20vh;
+    border: 1px solid black;
+}
+.main:hover{
+    background-color: white;
+    box-shadow: 3px 0 7px rgb(0 0 0 / 30%);
+    border-left: 3px solid black;
+}
+.imgidiv{
+    position: relative;
+    left: 8vh;
+}
+.main a{
+    width: 5vw;
+    height: 3vh;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+    margin: 10px;
+    transition-duration: 500ms;
+}
+.main a:hover{
+    background-color: black;
+}
