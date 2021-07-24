@@ -19,25 +19,54 @@ export default function Footer() {
                     <p>ens_intro_text__en</p>
                     <hr />
                     <div>
-                   <i class="far fa-envelope"></i>
-                    <a>info@ens.am</a>
+                         <i class="far fa-envelope"></i>
+                         <p>info@ens.am</p>
                     </div>
                     <hr />
                     <div>
-                        <i class="fas fa-phone-alt"></i>
-                          <a>055 88-22-99</a>
+                          <i class="fas fa-phone-alt"></i>
+                          <p>055 88-22-99</p>
                    </div>
                    <hr />
-                   <p>ք․ Երևան, Հերացու 20-56</p>
+                   <div>
+                       <i class="fas fa-map-marker-alt"></i>
+                      <p>ք․ Երևան, Հերացու 20-56</p>
+                   </div>
                 </span>
                 <span className={style.syun}>
                      <h3>USEFUL_LINKS__EN</h3>
-                     <p>teachers__en</p>
+                     <div className={style.syun2}>
+                        <i style={{color:"green",fontSize:10}} class="fas fa-chevron-right"></i>
+                         <Link to="/About">teachers__en</Link>
+                     </div>
+                     <div className={style.syun2}>
+                        <i style={{color:"green",fontSize:10}} class="fas fa-chevron-right"></i>
+                         <Link to="/Courses">Top courses</Link>
+                     </div>
+                     <div className={style.syun2}>
+                        <i style={{color:"green",fontSize:10}} class="fas fa-chevron-right"></i>
+                         <Link to="/Home">The latest news</Link>
+                     </div>
+                     <div className={style.syun2}>
+                        <i style={{color:"green",fontSize:10}} class="fas fa-chevron-right"></i>
+                         <Link to="/Home">gallery__en</Link>
+                     </div>
+                     <div className={style.syun2}>
+                        <i style={{color:"green",fontSize:10}} class="fas fa-chevron-right"></i>
+                         <Link to="/About">success_stories__en</Link>
+                     </div>
                 </span>
                 <span className={style.syun}>
                     <h3>MAILING__EN</h3>
                     <p>mail_us__en</p>
-                    
+                    <br />
+                    <Link className={style.button} to="/Contact">MAIL_EN</Link>
+                    <br />
+                    <br />
+                    <hr />
+                    <a className={style.icon} href="https://ens-courses.herokuapp.com/89"><i  class="fab fa-twitter"></i></a>
+                    <a className={style.icon} href="https://ens-courses.herokuapp.com/89"><i class="fab fa-google-plus-g"></i></a>
+                    <a  className={style.icon}href="https://www.facebook.com/ensaccounting"><i class="fab fa-facebook-square"></i></a>
                 </span>
             </div>
         </div>

@@ -7,7 +7,7 @@
 }
 .nerqev{
     height: 50vh;
-    background-color: #242c42;;
+    background-color: #242c42;
     display: flex;
     justify-content: space-around;
     color: white;
@@ -29,9 +29,44 @@
 }
 .nerqev h3{
     color: rgb(7, 85, 7);
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     margin-top: 30px;
 }
 .nerqev hr{
-    opacity: 0.2;
+    opacity: 0.1;
+}
+.syun div{
+    display: flex;
+    align-items: center;
+}
+.syun i{
+    margin-right: 10px;
+    color: white;
+}
+.syun2{
+    margin: 30px;
+}
+.syun2 a{
+    text-decoration: none;
+    color: white;
+    transition-duration: 500ms;
+}
+.syun2 a:hover{
+    color: rgb(7, 85, 7);
+}
+.button{
+    background-color:rgb(7, 85, 7); 
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+    transition-duration: 500ms;
+}
+.icon i{
+    transition-duration: 500ms;
+}
+.icon i:hover{
+    color: green;
+}
+.button:hover{
+    background-color: #242c42;
 }

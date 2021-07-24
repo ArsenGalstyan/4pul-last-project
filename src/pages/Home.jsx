@@ -101,13 +101,13 @@ export default function Home() {
             <Parallax bgImage="https://media.npr.org/assets/img/2020/03/13/gettyimages-667018224_wide-e69134a24ff79fd3a338ff83661815c6299e58bd-s800-c85.jpg" strength={600} blur={{min:-1,max:6}}>
                 <div className={style.parallaxidiv}>
                     <div className={style.textidiv}>
-                         <span className={style.klorbutton} onClick={mihathet}> - </span>
+                         <span className={style.klorbutton} onClick={mihathet}><i class="fas fa-angle-left"></i></span>
                         <div className={style.globalinfo}>
                             <p className={style.infodiv}>{json[info].texekutyun}</p>
                             <h4>{json[info].name}</h4>
                             <p>{json[info].masnagitutyun}</p>
                          </div>
-                         <span className={style.klorbutton} onClick={mihataraj}> + </span>
+                         <span className={style.klorbutton} onClick={mihataraj}><i class="fas fa-chevron-right"></i></span>
                     </div>
                 </div>
             </Parallax>
