@@ -1,0 +1,10 @@
+
+.decor{
+    background-image: url("https://ens-courses.herokuapp.com/assets/images/background-count-number.png");
+    height: 15vh;
+}
+.course{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
