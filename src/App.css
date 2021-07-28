@@ -27,3 +27,17 @@
   background-size: cover;
   transition-duration: 500ms;
 }
+
+.error{
+  border: 1px solid red;
+  outline: none;
+  box-shadow: 3px 0 7px rgb(0 0 0 / 30%);
+  background-color: rgb(250, 250, 250);
+}
+
+.error2{
+  border: 1px solid red;
+  outline: none;
+  box-shadow: 3px 0 7px rgb(0 0 0 / 30%);
+  background-color: rgb(250, 250, 250);
+}

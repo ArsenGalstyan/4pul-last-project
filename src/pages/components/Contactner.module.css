@@ -1,0 +1,26 @@
+.cont{
+    width: 18vw;
+    height: auto;
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+    padding: 50px;
+    padding-bottom: 0px;
+    margin: 0 50px;
+    margin-top: 15vh;
+    margin-bottom: 20vh;
+    transition-duration: 500ms;
+}
+.cont i{
+    color: green;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.cont div p{
+font-size: 13px;
+} 
+.cont:hover{
+    box-shadow: 3px 0 7px rgb(0 0 0 / 30%);
+    background-color: white;
+
+}
